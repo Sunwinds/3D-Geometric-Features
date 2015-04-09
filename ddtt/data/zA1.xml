@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<node>
+	<id>A</id>
+	<type>CURVE</type>
+	<mesh>meshes/A.obj</mesh>
+
+	<controls>
+		<c>7</c>
+	</controls>
+
+	<point>-0.214286 -2.03899e-08 1</point>
+	<point>-0.142857 -2.03899e-08 1</point>
+	<point>-0.0714286 -2.03899e-08 1</point>
+	<point>0 -2.03899e-08 1</point>
+	<point>0.0714286 -2.03899e-08 1</point>
+	<point>0.142857 -2.03899e-08 1</point>
+	<point>0.214286 -2.03899e-08 1</point>
+
+	<weights>1 1 1 1 1 1 1 </weights>
+</node>
+
+<node>
+	<id>Bl</id>
+	<type>CURVE</type>
+	<mesh>meshes/Bl.obj</mesh>
+
+	<controls>
+		<c>7</c>
+	</controls>
+
+	<point>-0.0714286 -1.10023e-08 1</point>
+	<point>-0.0714286 -1.10023e-08 0.928571</point>
+	<point>-0.0714286 -1.10023e-08 0.857143</point>
+	<point>-0.0714286 -1.10023e-08 0.785714</point>
+	<point>-0.0714286 -1.10023e-08 0.714286</point>
+	<point>-0.0714286 -1.10023e-08 0.642857</point>
+	<point>-0.0714286 -1.10023e-08 0.571429</point>
+
+	<weights>1 1 1 1 1 1 1 </weights>
+</node>
+
+<node>
+	<id>Br</id>
+	<type>CURVE</type>
+	<mesh>meshes/Br.obj</mesh>
+
+	<controls>
+		<c>7</c>
+	</controls>
+
+	<point>0.0714286 -1.10023e-08 1</point>
+	<point>0.0714286 -1.10023e-08 0.928571</point>
+	<point>0.0714286 -1.10023e-08 0.857143</point>
+	<point>0.0714286 -1.10023e-08 0.785714</point>
+	<point>0.0714286 -1.10023e-08 0.714286</point>
+	<point>0.0714286 -1.10023e-08 0.642857</point>
+	<point>0.0714286 -1.10023e-08 0.571429</point>
+
+	<weights>1 1 1 1 1 1 1 </weights>
+</node>
+
+<node>
+	<id>C</id>
+	<type>CURVE</type>
+	<mesh>meshes/C.obj</mesh>
+
+	<controls>
+		<c>5</c>
+	</controls>
+
+	<point>-0.142857 -1.33048e-09 0.571429</point>
+	<point>-0.0714286 -1.33048e-09 0.571429</point>
+	<point>0 -1.33048e-09 0.571429</point>
+	<point>0.0714286 -1.33048e-09 0.571429</point>
+	<point>0.142857 -1.33048e-09 0.571429</point>
+
+	<weights>1 1 1 1 1 </weights>
+</node>
+
+<node>
+	<id>D4</id>
+	<type>CURVE</type>
+	<mesh>meshes/D4.obj</mesh>
+
+	<controls>
+		<c>5</c>
+	</controls>
+
+	<point>0.107143 7.80966e-09 0.571429</point>
+	<point>0.107143 7.80966e-09 0.5</point>
+	<point>0.107143 7.80966e-09 0.428571</point>
+	<point>0.107143 7.80966e-09 0.357143</point>
+	<point>0.107143 7.80966e-09 0.285714</point>
+
+	<weights>1 1 1 1 1 </weights>
+</node>
+
+<node>
+	<id>D3</id>
+	<type>CURVE</type>
+	<mesh>meshes/D3.obj</mesh>
+
+	<controls>
+		<c>5</c>
+	</controls>
+
+	<point>0.0357143 7.80966e-09 0.571429</point>
+	<point>0.0357143 7.80966e-09 0.5</point>
+	<point>0.0357143 7.80966e-09 0.428571</point>
+	<point>0.0357143 7.80966e-09 0.357143</point>
+	<point>0.0357143 7.80966e-09 0.285714</point>
+
+	<weights>1 1 1 1 1 </weights>
+</node>
+
+<node>
+	<id>D1</id>
+	<type>CURVE</type>
+	<mesh>meshes/D1.obj</mesh>
+
+	<controls>
+		<c>5</c>
+	</controls>
+
+	<point>-0.107143 7.80966e-09 0.571429</point>
+	<point>-0.107143 7.80966e-09 0.5</point>
+	<point>-0.107143 7.80966e-09 0.428571</point>
+	<point>-0.107143 7.80966e-09 0.357143</point>
+	<point>-0.107143 7.80966e-09 0.285714</point>
+
+	<weights>1 1 1 1 1 </weights>
+</node>
+
+<node>
+	<id>D2</id>
+	<type>CURVE</type>
+	<mesh>meshes/D2.obj</mesh>
+
+	<controls>
+		<c>5</c>
+	</controls>
+
+	<point>-0.0357143 7.80966e-09 0.571429</point>
+	<point>-0.0357143 7.80966e-09 0.5</point>
+	<point>-0.0357143 7.80966e-09 0.428571</point>
+	<point>-0.0357143 7.80966e-09 0.357143</point>
+	<point>-0.0357143 7.80966e-09 0.285714</point>
+
+	<weights>1 1 1 1 1 </weights>
+</node>
+
+<node>
+	<id>E</id>
+	<type>CURVE</type>
+	<mesh>meshes/E.obj</mesh>
+
+	<controls>
+		<c>7</c>
+	</controls>
+
+	<point>-0.214286 1.07972e-08 0.285714</point>
+	<point>-0.142857 1.07972e-08 0.285714</point>
+	<point>-0.0714286 1.07972e-08 0.285714</point>
+	<point>0 1.07972e-08 0.285714</point>
+	<point>0.0714286 1.07972e-08 0.285714</point>
+	<point>0.142857 1.07972e-08 0.285714</point>
+	<point>0.214286 1.07972e-08 0.285714</point>
+
+	<weights>1 1 1 1 1 1 1 </weights>
+</node>
+
+<node>
+	<id>F</id>
+	<type>CURVE</type>
+	<mesh>meshes/F.obj</mesh>
+
+	<controls>
+		<c>5</c>
+	</controls>
+
+	<point>-1.61781e-08 2.03899e-08 0.285714</point>
+	<point>-1.07854e-08 2.03899e-08 0.214286</point>
+	<point>-5.39271e-09 2.03899e-08 0.142857</point>
+	<point>0 2.03899e-08 0.0714286</point>
+	<point>5.39271e-09 2.03899e-08 0</point>
+
+	<weights>1 1 1 1 1 </weights>
+</node>
+
+<edge>
+	<id>A : Bl</id>
+	<type>POINT</type>
+
+	<n>A</n>
+	<n>Bl</n>
+	<coord>
+		<uv>0.26689 0 0 0</uv>
+	</coord>
+	<coord>
+		<uv>0 0 0 0</uv>
+	</coord>
+</edge>
+
+<edge>
+	<id>A : Br</id>
+	<type>POINT</type>
+
+	<n>A</n>
+	<n>Br</n>
+	<coord>
+		<uv>0.733111 0 0 0</uv>
+	</coord>
+	<coord>
+		<uv>4.06868e-22 0 0 0</uv>
+	</coord>
+</edge>
+
+<edge>
+	<id>C : Bl</id>
+	<type>POINT</type>
+
+	<n>C</n>
+	<n>Bl</n>
+	<coord>
+		<uv>0.197083 0 0 0</uv>
+	</coord>
+	<coord>
+		<uv>1 0 0 0</uv>
+	</coord>
+</edge>
+
+<edge>
+	<id>C : Br</id>
+	<type>POINT</type>
+
+	<n>C</n>
+	<n>Br</n>
+	<coord>
+		<uv>0.802917 0 0 0</uv>
+	</coord>
+	<coord>
+		<uv>1 0 0 0</uv>
+	</coord>
+</edge>
+
+<edge>
+	<id>C : D4</id>
+	<type>POINT</type>
+
+	<n>C</n>
+	<n>D4</n>
+	<coord>
+		<uv>0.910853 0 0 0</uv>
+	</coord>
+	<coord>
+		<uv>0 0 0 0</uv>
+	</coord>
+</edge>
+
+<edge>
+	<id>C : D3</id>
+	<type>POINT</type>
+
+	<n>C</n>
+	<n>D3</n>
+	<coord>
+		<uv>0.670083 0 0 0</uv>
+	</coord>
+	<coord>
+		<uv>0 0 0 0</uv>
+	</coord>
+</edge>
+
+<edge>
+	<id>C : D1</id>
+	<type>POINT</type>
+
+	<n>C</n>
+	<n>D1</n>
+	<coord>
+		<uv>0.089147 0 0 0</uv>
+	</coord>
+	<coord>
+		<uv>0 0 0 0</uv>
+	</coord>
+</edge>
+
+<edge>
+	<id>C : D2</id>
+	<type>POINT</type>
+
+	<n>C</n>
+	<n>D2</n>
+	<coord>
+		<uv>0.329917 0 0 0</uv>
+	</coord>
+	<coord>
+		<uv>0 0 0 0</uv>
+	</coord>
+</edge>
+
+<edge>
+	<id>E : F</id>
+	<type>POINT</type>
+
+	<n>E</n>
+	<n>F</n>
+	<coord>
+		<uv>0.510132 0 0 0</uv>
+	</coord>
+	<coord>
+		<uv>5.13571e-10 0 0 0</uv>
+	</coord>
+</edge>
+
+<edge>
+	<id>E : D4</id>
+	<type>POINT</type>
+
+	<n>E</n>
+	<n>D4</n>
+	<coord>
+		<uv>0.829583 0 0 0</uv>
+	</coord>
+	<coord>
+		<uv>1 0 0 0</uv>
+	</coord>
+</edge>
+
+<edge>
+	<id>E : D3</id>
+	<type>POINT</type>
+
+	<n>E</n>
+	<n>D3</n>
+	<coord>
+		<uv>0.630463 0 0 0</uv>
+	</coord>
+	<coord>
+		<uv>1 0 0 0</uv>
+	</coord>
+</edge>
+
+<edge>
+	<id>E : D1</id>
+	<type>POINT</type>
+
+	<n>E</n>
+	<n>D1</n>
+	<coord>
+		<uv>0.170417 0 0 0</uv>
+	</coord>
+	<coord>
+		<uv>1 0 0 0</uv>
+	</coord>
+</edge>
+
+<edge>
+	<id>E : D2</id>
+	<type>POINT</type>
+
+	<n>E</n>
+	<n>D2</n>
+	<coord>
+		<uv>0.369537 0 0 0</uv>
+	</coord>
+	<coord>
+		<uv>1 0 0 0</uv>
+	</coord>
+</edge>
+
+<group>
+	<n>Bl</n>
+	<n>Br</n>
+</group>
+
+<group>
+	<n>D4</n>
+	<n>D3</n>
+	<n>D1</n>
+	<n>D2</n>
+</group>
+
+
+</document>

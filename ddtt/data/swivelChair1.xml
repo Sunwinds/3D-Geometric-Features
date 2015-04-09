@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<node>
+	<id>BackSheet</id>
+	<type>SHEET</type>
+	<mesh>swivelChair1/BackSheet.obj</mesh>
+
+	<controls>
+		<c>10</c>
+		<c>5</c>
+	</controls>
+
+	<point>0.24369 0.309022 0.846003</point>
+	<point>0.24369 0.309022 0.906753</point>
+	<point>0.24369 0.309022 0.967501</point>
+	<point>0.24369 0.309022 1.02825</point>
+	<point>0.24369 0.309022 1.089</point>
+	<point>0.189691 0.309022 0.846003</point>
+	<point>0.189691 0.309022 0.906753</point>
+	<point>0.189691 0.309022 0.967501</point>
+	<point>0.189691 0.309022 1.02825</point>
+	<point>0.189691 0.309022 1.089</point>
+	<point>0.13569 0.309022 0.846003</point>
+	<point>0.13569 0.309022 0.906753</point>
+	<point>0.13569 0.309022 0.967501</point>
+	<point>0.13569 0.309022 1.02825</point>
+	<point>0.13569 0.309022 1.089</point>
+	<point>0.0816914 0.309022 0.846003</point>
+	<point>0.0816914 0.309022 0.906753</point>
+	<point>0.0816914 0.309022 0.967501</point>
+	<point>0.0816914 0.309022 1.02825</point>
+	<point>0.0816914 0.309022 1.089</point>
+	<point>0.0276922 0.309022 0.846003</point>
+	<point>0.0276922 0.309022 0.906753</point>
+	<point>0.0276922 0.309022 0.967501</point>
+	<point>0.0276922 0.309022 1.02825</point>
+	<point>0.0276922 0.309022 1.089</point>
+	<point>-0.026307 0.309022 0.846003</point>
+	<point>-0.026307 0.309022 0.906753</point>
+	<point>-0.026307 0.309022 0.967501</point>
+	<point>-0.026307 0.309022 1.02825</point>
+	<point>-0.026307 0.309022 1.089</point>
+	<point>-0.0803062 0.309022 0.846003</point>
+	<point>-0.0803062 0.309022 0.906753</point>
+	<point>-0.0803062 0.309022 0.967501</point>
+	<point>-0.0803062 0.309022 1.02825</point>
+	<point>-0.0803062 0.309022 1.089</point>
+	<point>-0.134305 0.309022 0.846003</point>
+	<point>-0.134305 0.309022 0.906753</point>
+	<point>-0.134305 0.309022 0.967501</point>
+	<point>-0.134305 0.309022 1.02825</point>
+	<point>-0.134305 0.309022 1.089</point>
+	<point>-0.188306 0.309022 0.846003</point>
+	<point>-0.188306 0.309022 0.906753</point>
+	<point>-0.188306 0.309022 0.967501</point>
+	<point>-0.188306 0.309022 1.02825</point>
+	<point>-0.188306 0.309022 1.089</point>
+	<point>-0.242305 0.309022 0.846003</point>
+	<point>-0.242305 0.309022 0.906753</point>
+	<point>-0.242305 0.309022 0.967501</point>
+	<point>-0.242305 0.309022 1.02825</point>
+	<point>-0.242305 0.309022 1.089</point>
+
+	<weights>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </weights>
+</node>
+
+<node>
+	<id>BackMiddle</id>
+	<type>CURVE</type>
+	<mesh>swivelChair1/BackMiddle.obj</mesh>
+
+	<controls>
+		<c>6</c>
+	</controls>
+
+	<point>0.00275807 0.187523 0.481508</point>
+	<point>0.00275807 0.211823 0.554407</point>
+	<point>0.00275807 0.236122 0.627306</point>
+	<point>0.00275807 0.260422 0.700205</point>
+	<point>0.00275807 0.284722 0.773104</point>
+	<point>0.00275807 0.309022 0.846003</point>
+
+	<weights>1 1 1 1 1 1 </weights>
+</node>
+
+<node>
+	<id>SeatSheet</id>
+	<type>SHEET</type>
+	<mesh>swivelChair1/SeatSheet.obj</mesh>
+
+	<controls>
+		<c>5</c>
+		<c>5</c>
+	</controls>
+
+	<point>0.242953 0.187523 0.466274</point>
+	<point>0.242953 0.0660244 0.466274</point>
+	<point>0.242953 -0.0554742 0.466274</point>
+	<point>0.242953 -0.176972 0.466274</point>
+	<point>0.242953 -0.29847 0.466274</point>
+	<point>0.122062 0.187523 0.477696</point>
+	<point>0.122062 0.0660244 0.477696</point>
+	<point>0.122062 -0.0554742 0.477696</point>
+	<point>0.122062 -0.176972 0.477696</point>
+	<point>0.122062 -0.29847 0.477696</point>
+	<point>0.0006926 0.187523 0.481508</point>
+	<point>0.0006926 0.0660244 0.481508</point>
+	<point>0.0006926 -0.0554742 0.481508</point>
+	<point>0.0006926 -0.176972 0.481508</point>
+	<point>0.0006926 -0.29847 0.481508</point>
+	<point>-0.120676 0.187523 0.477696</point>
+	<point>-0.120676 0.0660244 0.477696</point>
+	<point>-0.120676 -0.0554742 0.477696</point>
+	<point>-0.120676 -0.176972 0.477696</point>
+	<point>-0.120676 -0.29847 0.477696</point>
+	<point>-0.241567 0.187523 0.466274</point>
+	<point>-0.241567 0.0660244 0.466274</point>
+	<point>-0.241567 -0.0554742 0.466274</point>
+	<point>-0.241567 -0.176972 0.466274</point>
+	<point>-0.241567 -0.29847 0.466274</point>
+
+	<weights>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </weights>
+</node>
+
+<node>
+	<id>Middle</id>
+	<type>CURVE</type>
+	<mesh>swivelChair1/Middle.obj</mesh>
+
+	<controls>
+		<c>6</c>
+	</controls>
+
+	<point>0.0006926 -0.0554742 0.481508</point>
+	<point>0.0006926 -0.0554742 0.457208</point>
+	<point>0.0006926 -0.0554742 0.432909</point>
+	<point>0.0006926 -0.0554742 0.408609</point>
+	<point>0.0006926 -0.0554742 0.384309</point>
+	<point>0.0006926 -0.0554742 0.360009</point>
+
+	<weights>1 1 1 1 1 1 </weights>
+</node>
+
+<node>
+	<id>Branch4</id>
+	<type>CURVE</type>
+	<mesh>swivelChair1/Branch4.obj</mesh>
+
+	<controls>
+		<c>6</c>
+	</controls>
+
+	<point>-0.00611969 -0.063976 0.364495</point>
+	<point>-0.055773 -0.106516 0.291596</point>
+	<point>-0.105427 -0.149054 0.218697</point>
+	<point>-0.15508 -0.191594 0.145799</point>
+	<point>-0.204734 -0.234132 0.0728987</point>
+	<point>-0.254386 -0.276671 -1.41305e-08</point>
+
+	<weights>1 1 1 1 1 1 </weights>
+</node>
+
+<node>
+	<id>Branch2</id>
+	<type>CURVE</type>
+	<mesh>swivelChair1/Branch2.obj</mesh>
+
+	<controls>
+		<c>6</c>
+	</controls>
+
+	<point>0.00842344 -0.0607537 0.364495</point>
+	<point>0.0509626 -0.110406 0.291596</point>
+	<point>0.0935013 -0.16006 0.218697</point>
+	<point>0.13604 -0.209714 0.145799</point>
+	<point>0.17858 -0.259368 0.0728987</point>
+	<point>0.221118 -0.309022 -1.41305e-08</point>
+
+	<weights>1 1 1 1 1 1 </weights>
+</node>
+
+<node>
+	<id>Branch1</id>
+	<type>CURVE</type>
+	<mesh>swivelChair1/Branch1.obj</mesh>
+
+	<controls>
+		<c>6</c>
+	</controls>
+
+	<point>0.00611745 -0.0470388 0.364495</point>
+	<point>0.055771 -0.00449921 0.291596</point>
+	<point>0.105424 0.0380393 0.218697</point>
+	<point>0.155078 0.0805785 0.145799</point>
+	<point>0.204731 0.123118 0.0728987</point>
+	<point>0.254386 0.165657 -1.41305e-08</point>
+
+	<weights>1 1 1 1 1 1 </weights>
+</node>
+
+<node>
+	<id>Branch3</id>
+	<type>CURVE</type>
+	<mesh>swivelChair1/Branch3.obj</mesh>
+
+	<controls>
+		<c>6</c>
+	</controls>
+
+	<point>-0.00612786 -0.0533528 0.364495</point>
+	<point>-0.0486669 -0.0036988 0.291596</point>
+	<point>-0.0912059 0.0459542 0.218697</point>
+	<point>-0.133744 0.0956081 0.145799</point>
+	<point>-0.176284 0.145262 0.0728987</point>
+	<point>-0.218823 0.194915 -1.41305e-08</point>
+
+	<weights>1 1 1 1 1 1 </weights>
+</node>
+
+<edge>
+	<id>BackSheet : BackMiddle</id>
+	<type>POINT</type>
+
+	<n>BackSheet</n>
+	<n>BackMiddle</n>
+	<coord>
+		<uv>0.494285 0 0 0</uv>
+	</coord>
+	<coord>
+		<uv>1 0 0 0</uv>
+	</coord>
+</edge>
+
+<edge>
+	<id>BackMiddle : SeatSheet</id>
+	<type>POINT</type>
+
+	<n>BackMiddle</n>
+	<n>SeatSheet</n>
+	<coord>
+		<uv>0 0 0 0</uv>
+	</coord>
+	<coord>
+		<uv>0.486419 1.38832e-11 0 0</uv>
+	</coord>
+</edge>
+
+<edge>
+	<id>SeatSheet : Middle</id>
+	<type>POINT</type>
+
+	<n>SeatSheet</n>
+	<n>Middle</n>
+	<coord>
+		<uv>0.496635 0.503367 0 0</uv>
+	</coord>
+	<coord>
+		<uv>0.0078385 0 0 0</uv>
+	</coord>
+</edge>
+
+<edge>
+	<id>Middle : Branch4</id>
+	<type>POINT</type>
+
+	<n>Middle</n>
+	<n>Branch4</n>
+	<coord>
+		<uv>0.961428 0 0 0</uv>
+	</coord>
+	<coord>
+		<uv>0 0 0 0</uv>
+	</coord>
+</edge>
+
+<edge>
+	<id>Middle : Branch2</id>
+	<type>POINT</type>
+
+	<n>Middle</n>
+	<n>Branch2</n>
+	<coord>
+		<uv>0.961428 0 0 0</uv>
+	</coord>
+	<coord>
+		<uv>0 0 0 0</uv>
+	</coord>
+</edge>
+
+<edge>
+	<id>Middle : Branch1</id>
+	<type>POINT</type>
+
+	<n>Middle</n>
+	<n>Branch1</n>
+	<coord>
+		<uv>0.961428 0 0 0</uv>
+	</coord>
+	<coord>
+		<uv>0 0 0 0</uv>
+	</coord>
+</edge>
+
+<edge>
+	<id>Middle : Branch3</id>
+	<type>POINT</type>
+
+	<n>Middle</n>
+	<n>Branch3</n>
+	<coord>
+		<uv>0.961428 0 0 0</uv>
+	</coord>
+	<coord>
+		<uv>0 0 0 0</uv>
+	</coord>
+</edge>
+
+<group>
+	<n>Branch4</n>
+	<n>Branch2</n>
+	<n>Branch1</n>
+	<n>Branch3</n>
+</group>
+
+
+</document>

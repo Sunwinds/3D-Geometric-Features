@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<node>
+	<id>Seat</id>
+	<type>SHEET</type>
+	<mesh>meshes/Seat.obj</mesh>
+
+	<controls>
+		<c>4</c>
+		<c>4</c>
+	</controls>
+
+	<point>-0.666667 -0.666667 1</point>
+	<point>-0.666667 -0.222222 1</point>
+	<point>-0.666667 0.222222 1</point>
+	<point>-0.666667 0.666667 1</point>
+	<point>-0.222222 -0.666667 1</point>
+	<point>-0.222222 -0.222222 1</point>
+	<point>-0.222222 0.222222 1</point>
+	<point>-0.222222 0.666667 1</point>
+	<point>0.222222 -0.666667 1</point>
+	<point>0.222222 -0.222222 1</point>
+	<point>0.222222 0.222222 1</point>
+	<point>0.222222 0.666667 1</point>
+	<point>0.666667 -0.666667 1</point>
+	<point>0.666667 -0.222222 1</point>
+	<point>0.666667 0.222222 1</point>
+	<point>0.666667 0.666667 1</point>
+
+	<weights>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </weights>
+</node>
+
+<node>
+	<id>Leg04</id>
+	<type>CURVE</type>
+	<mesh>meshes/Leg04.obj</mesh>
+
+	<controls>
+		<c>4</c>
+	</controls>
+
+	<point>0.666667 -0.666667 1</point>
+	<point>0.666667 -0.666667 0.666667</point>
+	<point>0.666667 -0.666667 0.333333</point>
+	<point>0.666667 -0.666667 0</point>
+
+	<weights>1 1 1 1 </weights>
+</node>
+
+<node>
+	<id>Leg01</id>
+	<type>CURVE</type>
+	<mesh>meshes/Leg01.obj</mesh>
+
+	<controls>
+		<c>4</c>
+	</controls>
+
+	<point>-0.666667 -0.666667 1</point>
+	<point>-0.666667 -0.666667 0.666667</point>
+	<point>-0.666667 -0.666667 0.333333</point>
+	<point>-0.666667 -0.666667 0</point>
+
+	<weights>1 1 1 1 </weights>
+</node>
+
+<node>
+	<id>Leg02</id>
+	<type>CURVE</type>
+	<mesh>meshes/Leg02.obj</mesh>
+
+	<controls>
+		<c>4</c>
+	</controls>
+
+	<point>-0.666667 0.666667 1</point>
+	<point>-0.666667 0.666667 0.666667</point>
+	<point>-0.666667 0.666667 0.333333</point>
+	<point>-0.666667 0.666667 0</point>
+
+	<weights>1 1 1 1 </weights>
+</node>
+
+<node>
+	<id>Leg03</id>
+	<type>CURVE</type>
+	<mesh>meshes/Leg03.obj</mesh>
+
+	<controls>
+		<c>4</c>
+	</controls>
+
+	<point>0.666667 0.666667 1</point>
+	<point>0.666667 0.666667 0.666667</point>
+	<point>0.666667 0.666667 0.333333</point>
+	<point>0.666667 0.666667 0</point>
+
+	<weights>1 1 1 1 </weights>
+</node>
+
+<edge>
+	<id>Seat : Leg04</id>
+	<type>POINT</type>
+
+	<n>Seat</n>
+	<n>Leg04</n>
+	<coord>
+		<uv>1 0 0 0</uv>
+	</coord>
+	<coord>
+		<uv>0 0 0 0</uv>
+	</coord>
+</edge>
+
+<edge>
+	<id>Seat : Leg01</id>
+	<type>POINT</type>
+
+	<n>Seat</n>
+	<n>Leg01</n>
+	<coord>
+		<uv>0 0 0 0</uv>
+	</coord>
+	<coord>
+		<uv>0 0 0 0</uv>
+	</coord>
+</edge>
+
+<edge>
+	<id>Seat : Leg02</id>
+	<type>POINT</type>
+
+	<n>Seat</n>
+	<n>Leg02</n>
+	<coord>
+		<uv>0 1 0 0</uv>
+	</coord>
+	<coord>
+		<uv>0 0 0 0</uv>
+	</coord>
+</edge>
+
+<edge>
+	<id>Seat : Leg03</id>
+	<type>POINT</type>
+
+	<n>Seat</n>
+	<n>Leg03</n>
+	<coord>
+		<uv>1 1 0 0</uv>
+	</coord>
+	<coord>
+		<uv>0 0 0 0</uv>
+	</coord>
+</edge>
+
+<group>
+	<n>Leg04</n>
+	<n>Leg01</n>
+	<n>Leg02</n>
+	<n>Leg03</n>
+</group>
+
+
+</document>

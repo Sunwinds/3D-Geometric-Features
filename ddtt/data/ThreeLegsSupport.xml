@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<node>
+	<id>SSeat</id>
+	<type>SHEET</type>
+	<mesh>meshes/Seat.obj</mesh>
+
+	<controls>
+		<c>4</c>
+		<c>4</c>
+	</controls>
+
+	<point>-0.666667 -0.666667 1</point>
+	<point>-0.666667 -0.222222 1</point>
+	<point>-0.666667 0.222222 1</point>
+	<point>-0.666667 0.666667 1</point>
+	<point>-0.222222 -0.666667 1</point>
+	<point>-0.222222 -0.222222 1</point>
+	<point>-0.222222 0.222222 1</point>
+	<point>-0.222222 0.666667 1</point>
+	<point>0.222222 -0.666667 1</point>
+	<point>0.222222 -0.222222 1</point>
+	<point>0.222222 0.222222 1</point>
+	<point>0.222222 0.666667 1</point>
+	<point>0.666667 -0.666667 1</point>
+	<point>0.666667 -0.222222 1</point>
+	<point>0.666667 0.222222 1</point>
+	<point>0.666667 0.666667 1</point>
+
+	<weights>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </weights>
+</node>
+
+<node>
+	<id>SLeg04</id>
+	<type>CURVE</type>
+	<mesh>meshes/Leg04.obj</mesh>
+
+	<controls>
+		<c>4</c>
+	</controls>
+
+	<point>0.666667 -0.666667 1</point>
+	<point>0.666667 -0.666667 0.666667</point>
+	<point>0.666667 -0.666667 0.333333</point>
+	<point>0.666667 -0.666667 0</point>
+
+	<weights>1 1 1 1 </weights>
+</node>
+
+<node>
+	<id>SLeg02</id>
+	<type>CURVE</type>
+	<mesh>meshes/Leg02.obj</mesh>
+
+	<controls>
+		<c>4</c>
+	</controls>
+
+	<point>-0.666667 -8.14607e-08 1</point>
+	<point>-0.666667 -2.71535e-08 0.666667</point>
+	<point>-0.666667 2.71535e-08 0.333333</point>
+	<point>-0.666667 8.14607e-08 0</point>
+
+	<weights>1 1 1 1 </weights>
+</node>
+
+<node>
+	<id>SLeg03</id>
+	<type>CURVE</type>
+	<mesh>meshes/Leg03.obj</mesh>
+
+	<controls>
+		<c>4</c>
+	</controls>
+
+	<point>0.666667 0.666667 1</point>
+	<point>0.666667 0.666667 0.666667</point>
+	<point>0.666667 0.666667 0.333333</point>
+	<point>0.666667 0.666667 0</point>
+
+	<weights>1 1 1 1 </weights>
+</node>
+
+<node>
+	<id>SSupport</id>
+	<type>CURVE</type>
+	<mesh>meshes/Support.obj</mesh>
+
+	<controls>
+		<c>4</c>
+	</controls>
+
+	<point>0.666667 0.666667 0.5</point>
+	<point>0.666667 0.166667 0.5</point>
+	<point>0.666667 -0.166667 0.5</point>
+	<point>0.666667 -0.666667 0.5</point>
+
+	<weights>1 1 1 1 </weights>
+</node>
+
+<edge>
+	<id>SSeat : SLeg04</id>
+	<type>POINT</type>
+
+	<n>SSeat</n>
+	<n>SLeg04</n>
+	<coord>
+		<uv>1 0 0 0</uv>
+	</coord>
+	<coord>
+		<uv>0 0 0 0</uv>
+	</coord>
+</edge>
+
+<edge>
+	<id>SSeat : SLeg02</id>
+	<type>POINT</type>
+
+	<n>SSeat</n>
+	<n>SLeg02</n>
+	<coord>
+		<uv>0 0.492457 0 0</uv>
+	</coord>
+	<coord>
+		<uv>0 0 0 0</uv>
+	</coord>
+</edge>
+
+<edge>
+	<id>SSeat : SLeg03</id>
+	<type>POINT</type>
+
+	<n>SSeat</n>
+	<n>SLeg03</n>
+	<coord>
+		<uv>1 1 0 0</uv>
+	</coord>
+	<coord>
+		<uv>0 0 0 0</uv>
+	</coord>
+</edge>
+
+<edge>
+	<id>SSupport : SLeg04</id>
+	<type>POINT</type>
+
+	<n>SSupport</n>
+	<n>SLeg04</n>
+	<coord>
+		<uv>1 0 0 0</uv>
+	</coord>
+	<coord>
+		<uv>0.49 0 0 0</uv>
+	</coord>
+</edge>
+
+<edge>
+	<id>SSupport : SLeg03</id>
+	<type>POINT</type>
+
+	<n>SSupport</n>
+	<n>SLeg03</n>
+	<coord>
+		<uv>0 0 0 0</uv>
+	</coord>
+	<coord>
+		<uv>0.49 0 0 0</uv>
+	</coord>
+</edge>
+
+<group>
+	<n>SLeg04</n>
+	<n>SLeg02</n>
+	<n>SLeg03</n>
+</group>
+
+
+</document>

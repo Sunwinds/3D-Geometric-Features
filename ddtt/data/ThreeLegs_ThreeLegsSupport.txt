@@ -1,0 +1,24 @@
+hasScore 4 0 0
+
+1	Seat	
+1	SSeat	
+0
+
+
+1	Leg04	
+1	SLeg04	
+0
+
+
+1	Leg02	
+1	SLeg02	
+0
+
+
+1	Leg03	
+1	SLeg03	
+0
+
+
+
+
